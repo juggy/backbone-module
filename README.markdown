@@ -35,27 +35,27 @@ So that reads: for the "core/models" modules define a property called "Quote" th
 My Backbone applications are usually built like that:
 
 * core
-** index.coffee (the main "core" module which references all sub module like "models")
-** helpers
-** models
-** routers
-** views
-** templates
+  * index.coffee (the main "core" module which references all sub module like "models")
+  * helpers
+  * models
+  * routers
+  * views
+  * templates
 * project
-** index.coffee
-** routers
-** models
-** ...
+  * index.coffee
+  * routers
+  * models
+  * ...
 * quote
-** index.coffee
-** routers
-** models
-** ...
+  * index.coffee
+  * routers
+  * models
+  * ...
 * invoice
-** index.coffee
-** routers
-** models
-** ...
+  * index.coffee
+  * routers
+  * models
+  * ...
 
 My index.coffee looks like this
 
